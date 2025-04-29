@@ -320,7 +320,7 @@ IcicleGraph >> createZoomNode: methodTrace [
 	| text morph |
 	text := String streamContents: [ :s |
 		        self
-			        print: (self weightOf: methodTrace)
+			        print: (self weightOf: methodTrace) - 1
 			        pluralize: 'send'
 			        on: s ].
 
