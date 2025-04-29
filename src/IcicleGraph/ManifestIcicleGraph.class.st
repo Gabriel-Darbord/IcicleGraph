@@ -13,12 +13,12 @@ Class {
 ManifestIcicleGraph class >> ruleLongMethodsRuleV1FalsePositive [
 
 	<ignoreForCoverage>
-	^ #(#(#(#RGPackageDefinition #(#IcicleGraphPresenter)) #'2025-04-19T00:00:00.0+02:00') )
+	^ #(#(#(#RGPackageDefinition #(#IcicleGraph)) #'2025-04-19T00:00:00.0+02:00') )
 ]
 
 { #category : 'code-critics' }
 ManifestIcicleGraph class >> ruleToDoCollectRuleV1FalsePositive [
 
 	<ignoreForCoverage>
-	^ #(#(#(#RGPackageDefinition #(#IcicleGraphPresenter)) #'2025-04-19T00:00:00.0+02:00') )
+	^ #(#(#(#RGPackageDefinition #(#IcicleGraph)) #'2025-04-19T00:00:00.0+02:00') )
 ]
