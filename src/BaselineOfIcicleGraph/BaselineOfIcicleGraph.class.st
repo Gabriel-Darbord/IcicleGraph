@@ -12,7 +12,7 @@ BaselineOfIcicleGraph >> baseline: spec [
 	spec for: #common do: [
 		spec baseline: 'ScopeoExecutionRecorder' with: [
 			spec repository:
-				'github://scopeo-project/scopeo-execution-recorder/src' ].
+				'github://scopeo-project/scopeo-execution-recorder:main/src' ].
 
 		spec package: 'IcicleGraph' ]
 ]
